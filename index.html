@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="help">
+      <div class="icon">❓</div>
+      <div class="description">
+        <div>
+          <p>This tool gives you the possible codes based on</p>
+          <p>the input visible in-game thanks to the UV light.</p>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="container">
+      <h1>Payday 3 code util</h1>
+      <div id="code-display">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div id="keyboard">
+        <div data-interaction="key">1</div>
+        <div data-interaction="key">2</div>
+        <div data-interaction="key">3</div>
+        <div data-interaction="key">4</div>
+        <div data-interaction="key">5</div>
+        <div data-interaction="key">6</div>
+        <div data-interaction="key">7</div>
+        <div data-interaction="key">8</div>
+        <div data-interaction="key">9</div>
+        <div data-interaction="cancel">❌</div>
+        <div data-interaction="key">0</div>
+        <div data-interaction="submit">✔</div>
+      </div>
+    </div>
+    <div id="result-area"></div>
+    <template id="result-row">
+      <div class="row">
+        <p></p>
+        <button>Tested</button>
+      </div>
+    </template>
+    <script src="./script.js"></script>
+  </body>
+</html>
